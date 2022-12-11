@@ -38,12 +38,10 @@
 		</ul>
 		<h2>Code example:</h2>
 		<blockquote>
-			function calculatePow(number, power) {
-				let result = number;
-				for (let i = 1; i <= power; i++) {
-					result = result * number;
-				};
-				return result;
+			function isPythagoreanTriple(integers) {
+				const maxNumber = Math.max(...integers);
+				const restNumbers = integers.filter(el => el !== maxNumber)
+				return (maxNumber ** 2) === ((restNumbers[0] ** 2) + (restNumbers[1] ** 2))
 			}
 		</blockquote>
 		<h2>Education: </h2>
