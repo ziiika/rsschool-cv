@@ -25,3 +25,11 @@ function calculatePow(number, power) {
 	return result;
 }
 ```
+
+## Education
+* Tashkent State Dental Institute - bachelor degree
+
+## Languages
+* Russian - native
+* Uzbek - advanced
+* English - intermediate
